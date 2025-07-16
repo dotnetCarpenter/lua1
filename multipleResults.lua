@@ -13,5 +13,10 @@ print(c)
 
 -- print all return values
 print (values ())
+print ({values ()})
+
 -- try to get length of return values (does not work)
+--for key, value in {values()} do
+--	print (key, value)
+--end
 -- print (rawlen(values()))
