@@ -1,4 +1,13 @@
-local s = "dette er en string"	
+local function log (msg)
+	print("\n" .. msg)
+	print(type(msg))
+end
 
-print(s)
-print(type(s))
+
+local s = "dette er en string"	
+log(s)
+
+local n = 123
+log(n)
+
+--local color = Color3.fromRGB(255, 230, 50)
